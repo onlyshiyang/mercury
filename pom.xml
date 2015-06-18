@@ -115,6 +115,13 @@
   <build>
     <finalName>mercury</finalName>
     
+    <plugins>
+      <plugin>
+        <groupId>org.mortbay.jetty</groupId>
+        <artifactId>maven-jetty-plugin</artifactId>
+        <version>${jetty-plugin.version}</version>
+      </plugin>
+    </plugins>
   </build>
   
 </project>
